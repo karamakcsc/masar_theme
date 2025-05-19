@@ -1,13 +1,13 @@
 :root {
 	--bg-color:  #e5e8eb;
 	--btn-primary: #77adf9;
-	--btn-secondary: #017E8480;
-	--secondary: #017E84;
+	--btn-secondary: #0083a880;
+	--secondary: #0083a8;
 	--navbar-bg: #77adf9;
 	--text-btn-color: white;
 	--table-border-color: #77adf940;
 	--btn-default-hover-bg: white;
-	--sidebar-select-color: #017E8420;
+	--sidebar-select-color: #0083a820;
 	--checkbox-gradient: linear-gradient(180deg, var(--btn-primary) -124.51%, var(--btn-primary) 100%);
 	--text-base: 14px;
 }
@@ -90,8 +90,8 @@ body, .page-container {
 
 .es-icon {
 	@extend .icon;
-	fill :  #017E8480 !important; 
-	stroke:  #017E8480 !important;
+	fill :  #0083a880 !important; 
+	stroke:  #0083a880 !important;
 }
 
 .page-content .layout-main-section{
