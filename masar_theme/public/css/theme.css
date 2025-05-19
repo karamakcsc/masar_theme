@@ -4,9 +4,9 @@
 	--btn-secondary: #0083a880;
 	--secondary: #0083a8;
 	--navbar-bg: #77adf9;
-	--text-btn-color: white;
+	--text-btn-color: rgb(255, 255, 255);
 	--table-border-color: #77adf940;
-	--btn-default-hover-bg: white;
+	--btn-default-hover-bg: #e81111;
 	--sidebar-select-color: #0083a820;
 	--checkbox-gradient: linear-gradient(180deg, var(--btn-primary) -124.51%, var(--btn-primary) 100%);
 	--text-base: 14px;
