@@ -88,6 +88,13 @@ body, .page-container {
 	background-color: white !important;
 }
 
+/* Arabic Font Override */
+html[lang="ar"], 
+html[lang="ar"] body, 
+html[lang="ar"] * {
+	font-family: Calibri, 'Segoe UI', Tahoma, Geneva, sans-serif !important;
+}
+
 .es-icon {
 	@extend .icon;
 	fill :  #0083a880 !important; 
