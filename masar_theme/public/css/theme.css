@@ -1,13 +1,13 @@
 :root {
 	--bg-color:  #e5e8eb;
-	--btn-primary: #77adf9;
-	--btn-secondary: #0083a880;
-	--secondary: #0083a8;
-	--navbar-bg: #77adf9;
+	--btn-primary: #045909;
+	--btn-secondary: #04590980;
+	--secondary: #045909;
+	--navbar-bg: #045909;
 	--text-btn-color: rgb(255, 255, 255);
-	--table-border-color: #77adf940;
+	--table-border-color: #04590940;
 	--btn-default-hover-bg: white;
-	--sidebar-select-color: #0083a820;
+	--sidebar-select-color: #04590920;
 	--checkbox-gradient: linear-gradient(180deg, var(--btn-primary) -124.51%, var(--btn-primary) 100%);
 	--text-base: 14px;
 }
@@ -15,26 +15,26 @@
 /* login page */
 
 [data-path="login"] .navbar-light {
-	border-bottom: 1px solid var(--blue-400) !important;
+	border-bottom: 1px solid var(--green-400) !important;
 	background: white;
 }
 
 [data-path="login"] .web-footer {
-	border-top: 1px solid var(--blue-400) !important;
+	border-top: 1px solid var(--green-400) !important;
 }
 
 .for-login .page-card {
-	border: 1px solid var(--blue-400) !important;
+	border: 1px solid var(--green-400) !important;
 }
 
 .for-login .btn-login{
-	background-color: var(--blue-800) !important;
+	background-color: var(--green-800) !important;
 	border: none !important;
 	color: white;
 }
 
 .for-login .btn-login:hover{
-	background-color: var(--blue-600) !important;
+	background-color: var(--green-600) !important;
 	border: none !important;
 	color: white;
 }
@@ -45,15 +45,15 @@
 
 .for-login .form-control, .for-login .form-control{
 	background-color: white !important;
-	border: solid 1px var(--blue-400) !important;
+	border: solid 1px var(--green-400) !important;
 }
 
 .for-login .form-control:focus, .for-login .form-control:hover{
-	box-shadow: 0 0 0 1px var(--blue-300) !important;
+	box-shadow: 0 0 0 1px var(--green-300) !important;
 }
 
 .for-login .page-card .page-card-body .forgot-password-message>* {
-	color: var(--blue-600) !important;
+	color: var(--green-600) !important;
 }
 
 /* NAVBAR DESIGNE */
@@ -97,8 +97,8 @@ html[lang="ar"] * {
 
 .es-icon {
 	@extend .icon;
-	fill :  #0083a880 !important; 
-	stroke:  #0083a880 !important;
+	fill :  #04590980 !important; 
+	stroke:  #04590980 !important;
 }
 
 .page-content .layout-main-section{
@@ -115,12 +115,12 @@ html[lang="ar"] * {
 }
 
 .widget.links-widget-box, .widget.dashboard-widget-box {
-	border: 1px solid #77adf980;
+	border: 1px solid #04590980;
 }
 
 .widget.links-widget-box .widget-head .widget-label .widget-title{
 	background-color: white;
-	color: #77adf9 !important;
+	color: #045909 !important;
 }
 
 .widget-body .link-item{
@@ -179,11 +179,11 @@ a.onboard-spotlight .link-content:hover {
 }
 
 .form-control:focus, .form-control:hover{
-	box-shadow: 0 0 0 2px #77adf980 !important;
+	box-shadow: 0 0 0 2px #04590980 !important;
 }
 
 .form-control:focus {
-	background-color: #77adf925;
+	background-color: #04590925;
 }
 
 .frappe-control:not([data-fieldtype="MultiSelectPills"]):not([data-fieldtype="Table MultiSelect"]).has-error input:hover,
@@ -205,7 +205,7 @@ option {
 }
 
 .grid-row-open{
-	box-shadow: 0 0 0 3px #77adf9 !important;
+	box-shadow: 0 0 0 3px #045909 !important;
 }
 
 .awesomplete [role="option"]:hover,  .awesomplete li:hover{
@@ -228,12 +228,12 @@ input[type="checkbox"]:checked {
 
 .btn.btn-primary{
 	color: var(--text-btn-color);
-	border: solid 2px #77adf9 !important;
+	border: solid 2px #045909 !important;
 }
 
 .btn.btn-primary:hover {
 	background: var(--btn-default-hover-bg) !important;
-	border: solid 2px #77adf9 !important;
+	border: solid 2px #045909 !important;
 	color: var(--text-color);
   }
 
@@ -280,14 +280,14 @@ input[type="checkbox"]:checked {
 }
 
 .btn.btn-new-doc{
-	background-color: #77adf9 !important;
+	background-color: #045909 !important;
 	color: var(--text-btn-color);
-	border: solid 2px #77adf9 !important;
+	border: solid 2px #045909 !important;
 }
 
 .btn.btn-new-doc:hover{
 	background: var(--btn-default-hover-bg) !important;
-	border: solid 2px #77adf9 !important;
+	border: solid 2px #045909 !important;
 	color: var(--text-color);
 }
 
